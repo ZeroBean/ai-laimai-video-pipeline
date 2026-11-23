@@ -1,0 +1,2 @@
+[{"key":"openai_policy","ph":["You must not use OpenAI models or their outputs to generate, prepare, select, or supply training material or signals for models that are intended as alternatives to or substitutes for OpenAI models or services."],"zhin":["不得用 OpenAI 的模型或输出，为替代 OpenAI 的模型准备训练材料"],"col":"#F4C3AE"},
+ {"key":"openai_date","ph":["Effective: November 20, 2026"],"zhin":["11 月 20 日生效"],"col":"#F4C3AE","h":500}]

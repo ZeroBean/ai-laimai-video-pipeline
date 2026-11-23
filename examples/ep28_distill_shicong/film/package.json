@@ -1,0 +1,7 @@
+{
+  "name": "ep28-film",
+  "private": true,
+  "type": "module",
+  "description": "第28期画面渲染：Chrome 无头浏览器按时间逐帧截图",
+  "dependencies": { "puppeteer-core": "23.11.1" }
+}

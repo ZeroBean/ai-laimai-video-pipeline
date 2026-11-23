@@ -1,0 +1,27 @@
+# 期目录	标题	时长(秒)	是否放进 Releases(1/0)	备注
+ep02_chatgpt	ChatGPT是怎么来的	231	1	早期长版
+ep02_short	ChatGPT的核心原理（短版）	100	1
+ep03_roadster	特斯拉Roadster倒挂翻身原理	92	1	汽车题材试验
+ep04_deepseek	DeepSeek淘汰线	70	1	第一期"懂行朋友聊天"口吻
+ep05_moe	DeepSeek只用3%的脑子	70	1	像素RPG试验（被否，留作反面案例）
+ep07_deepseek_open	DeepSeek公开自家印钞机	59	1
+ep09_deepseek_funding	蔚来融资十余年不如DeepSeek一轮	78	1
+ep10_eu_japan	AI竞争只剩中美，欧洲日本去哪了	93	1
+ep11_anthropic_s1	AI造富有多快：五年七个百亿富豪	69	1	纸面桌面画风
+ep12_ai_free	AI这么贵，为什么我们用起来却免费	68	1
+ep13_huawei_ascend	华为AI芯片凭什么撑起半边天	94	1	暗金总图
+ep14_ai_waimai	让AI点个外卖为啥这么难	91	1
+ep15_apple_ai_cn	苹果用户苦等2年的AI到底有什么用	73	1	仿真机界面
+ep16_korea_qwen	韩国AI的半壁江山用的是中国模型	79	1
+ep17_ai_yueliaoyueben	AI越聊越笨，真不是你的错觉	91	1
+ep18_ai_talent	顶尖AI人才居然被中国人包圆了	103	1	双色报纸画风
+ep19_free_opensource	免费开源才是最狠的生意	92	1	涂黑账单画风
+ep20_huang_affair	黄仁勋承认出轨，马斯克：我同意	65	0	涉及私人生活，待确认
+ep21_huang_shenqing	老黄的深情往事	83	0	涉及私人生活，待确认
+ep22_huang_mystery_woman	让老黄破例的神秘女人	93	0	有非公众人物正脸，待确认
+ep23_tiktok_rabbit_hole	短视频算法翻车	71	1	新闻视频为主
+ep24_huang_comeback	大反转！老黄要杀回来了	86	1	请愿网站真录屏
+ep25_deepseek_shilian	DeepSeek一限额，我失恋了	79	1	手机界面全屏
+ep26_deepseek_free_end	DeepSeek限额，免费AI到头了	86	1	深色底+三状态色
+ep27_prompt_outdated	你教AI那一套，其实已经过时了	88	1	大字压实拍+访谈原声
+ep28_distill_shicong	国产AI，师从美国？	95	1	本仓库完整范例

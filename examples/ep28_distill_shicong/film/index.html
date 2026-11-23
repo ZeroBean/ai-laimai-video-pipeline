@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:'LongCang';src:url('fonts/LongCang-Regular.ttf')}
+html,body{margin:0;overflow:hidden;background:#000}#wrap{position:relative;width:1080px;height:1920px;overflow:hidden}</style>
+</head><body><div id="wrap"></div><div style="font-family:LongCang;position:absolute;opacity:0">教材第册</div>
+<script src="kit.js"></script><script src="kf.js"></script><script src="timeline.js"></script><script src="shots.js"></script><script src="seqinfo.js"></script><script src="scenes.js"></script>
+<script>const ims=['web_openai_policy_zh.png','web_anth_oct_reason_zh.png','web_anth_oct_title_zh.png','web_anth_feb_legit_zh.png','web_r1_800k_zh.png','web_hf_r1_distill_clean.png','web_anth_feb_title_zh.png','web_anth_feb_num_zh.png','web_ifeng_kimi_clean.png','web_sina_h200_clean.png','web_sina_bis_title_clean.png','mm_m25.png','mm_m27.png','mm_m3.png','mm_m31f.png','ds_v4pro.png','zp_53.png','qw_38.png','km_k3.png','f_qwen4.jpg','f_k31.jpg'].map(f=>{const i=new Image();i.src='img/'+f;return i.decode().catch(()=>{});});
+Promise.all([document.fonts.load('80px LongCang'),document.fonts.ready,...ims]).then(()=>setTimeout(()=>{window.READY=true},300));</script></body></html>

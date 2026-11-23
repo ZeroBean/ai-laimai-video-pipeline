@@ -1,0 +1,3 @@
+[{"key":"anth_feb_num","ph":["These labs generated over 16 million exchanges with Claude through approximately 24,000 fraudulent accounts"],"zhin":["通过约 2.4 万个虚假账号，和 Claude 进行了超过 1600 万次对话"],"col":"#F4C3AE"},
+ {"key":"anth_feb_legit","ph":["Distillation is a widely used and legitimate training method."],"zhin":["蒸馏是一种被广泛使用、正当的训练方法。"],"col":"#F4C3AE"},
+ {"key":"anth_feb_title","ph":["Detecting and preventing distillation attacks"],"zhin":["发现并阻止蒸馏攻击"],"col":"#F4C3AE","at":0.3}]

@@ -1,0 +1,15 @@
+.env
+*.cookies.txt
+cookies.txt
+__pycache__/
+node_modules/
+# 素材是第三方版权内容，按 tools/fetch_assets.sh 自己下载
+**/素材/
+**/film/img/
+**/film/seq/
+**/film/out/
+**/film/fonts/
+**/film/seqinfo.js
+**/资料/网页存档/
+*.mp4
+*.wav
