@@ -132,32 +132,64 @@ flowchart TD
 
 ## 风格与样例
 
-做过的各期归纳成 **11 种风格**。分镜时先从风格库里选一种（或两种组合）；都不合适才提新风格，做成后补进库。
+做过的各期归纳成 **11 种风格**。分镜时先从风格库选一种（或两种组合）；都不合适才提新风格，做成后补进库。**点动图或片名即可播放原片**（每种风格的要素、适合题材、踩过的坑 → [docs/07_风格库.md](docs/07_风格库.md)）。
 
-| 风格 | 适合 | 代表视频 |
-|---|---|---|
-| ① 新闻快剪 | 突发新闻、人物事件 | 第23、24期 |
-| ② 大字压实拍 | 访谈、演讲里的观点 | 第27期 |
-| ③ 原件 + 时间轴 | 一连串政策/事件、多家对比 | 第28期（完整范例） |
-| ④ 手机里发生 | App 限额、弹窗、AI 操作手机 | 第25、15、14期 |
-| ⑤ 深色状态色 | 价格、额度、收费的账 | 第26、12期 |
-| ⑥ 纸面桌面 | 主角是一份文件（招股书、财报） | 第11期 |
-| ⑦ 双色报纸 | 国别对比、报告比例 | 第18期 |
-| ⑧ 涂黑账单 | 算账、揭成本 | 第19期 |
-| ⑨ 暗金总图 | 产业链、结构全景 | 第13期 |
-| ⑩ 蓝图纸 | 模型族谱、技术谱系 | 第16期 |
-| ⑪ 场景接力 | 过程类、变化类（可组合） | 第17期 |
-
-- 每种风格的要素、适合题材、踩过的坑 → [docs/07_风格库.md](docs/07_风格库.md)
-- 23 期成片下载 → [Releases · cases-v1](../../releases/tag/cases-v1)（清单 [`cases.tsv`](cases.tsv)）
-- 完整范例 → [`examples/ep28_distill_shicong/`](examples/ep28_distill_shicong/)
+<table>
+<tr>
+<td align="center" valign="top" width="33%"><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep23_tiktok_rabbit_hole.mp4"><img src="docs/styles/gif/01.gif" width="200" alt="① 新闻快剪"></a><br><b>① 新闻快剪</b><br><sub>适合：突发新闻、人物事件</sub><br><sub><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep23_tiktok_rabbit_hole.mp4">▶ 第23期 短视频算法翻车</a><br><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep24_huang_comeback.mp4">▶ 第24期 大反转！老黄要杀回来了</a></sub></td>
+<td align="center" valign="top" width="33%"><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep27_prompt_outdated.mp4"><img src="docs/styles/gif/02.gif" width="200" alt="② 大字压实拍"></a><br><b>② 大字压实拍</b><br><sub>适合：访谈、演讲里的观点</sub><br><sub><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep27_prompt_outdated.mp4">▶ 第27期 你教AI那一套，其实已经过时了</a></sub></td>
+<td align="center" valign="top" width="33%"><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep28_distill_shicong.mp4"><img src="docs/styles/gif/03.gif" width="200" alt="③ 原件 + 时间轴"></a><br><b>③ 原件 + 时间轴</b><br><sub>适合：一连串政策/事件、多家对比</sub><br><sub><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep28_distill_shicong.mp4">▶ 第28期 国产AI，师从美国？</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top" width="33%"><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep25_deepseek_shilian.mp4"><img src="docs/styles/gif/04.gif" width="200" alt="④ 手机里发生"></a><br><b>④ 手机里发生</b><br><sub>适合：App 限额、弹窗、AI 操作手机</sub><br><sub><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep25_deepseek_shilian.mp4">▶ 第25期 DeepSeek一限额，我失恋了</a><br><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep15_apple_ai_cn.mp4">▶ 第15期 苹果用户苦等2年的AI到底有什么用</a><br><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep14_ai_waimai.mp4">▶ 第14期 让AI点个外卖为啥这么难</a></sub></td>
+<td align="center" valign="top" width="33%"><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep26_deepseek_free_end.mp4"><img src="docs/styles/gif/05.gif" width="200" alt="⑤ 深色状态色"></a><br><b>⑤ 深色状态色</b><br><sub>适合：价格、额度、收费的账</sub><br><sub><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep26_deepseek_free_end.mp4">▶ 第26期 DeepSeek限额，免费AI到头了</a><br><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep12_ai_free.mp4">▶ 第12期 AI这么贵，为什么我们用起来却免费</a></sub></td>
+<td align="center" valign="top" width="33%"><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep11_anthropic_s1.mp4"><img src="docs/styles/gif/06.gif" width="200" alt="⑥ 纸面桌面"></a><br><b>⑥ 纸面桌面</b><br><sub>适合：主角是一份文件（招股书、财报）</sub><br><sub><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep11_anthropic_s1.mp4">▶ 第11期 AI造富有多快：五年七个百亿富豪</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top" width="33%"><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep18_ai_talent.mp4"><img src="docs/styles/gif/07.gif" width="200" alt="⑦ 双色报纸"></a><br><b>⑦ 双色报纸</b><br><sub>适合：国别对比、报告比例</sub><br><sub><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep18_ai_talent.mp4">▶ 第18期 顶尖AI人才居然被中国人包圆了</a></sub></td>
+<td align="center" valign="top" width="33%"><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep19_free_opensource.mp4"><img src="docs/styles/gif/08.gif" width="200" alt="⑧ 涂黑账单"></a><br><b>⑧ 涂黑账单</b><br><sub>适合：算账、揭成本</sub><br><sub><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep19_free_opensource.mp4">▶ 第19期 免费开源才是最狠的生意</a></sub></td>
+<td align="center" valign="top" width="33%"><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep13_huawei_ascend.mp4"><img src="docs/styles/gif/09.gif" width="200" alt="⑨ 暗金总图"></a><br><b>⑨ 暗金总图</b><br><sub>适合：产业链、结构全景</sub><br><sub><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep13_huawei_ascend.mp4">▶ 第13期 华为AI芯片凭什么撑起半边天</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top" width="33%"><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep16_korea_qwen.mp4"><img src="docs/styles/gif/10.gif" width="200" alt="⑩ 蓝图纸"></a><br><b>⑩ 蓝图纸</b><br><sub>适合：模型族谱、技术谱系</sub><br><sub><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep16_korea_qwen.mp4">▶ 第16期 韩国AI的半壁江山用的是中国模型</a></sub></td>
+<td align="center" valign="top" width="33%"><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep17_ai_yueliaoyueben.mp4"><img src="docs/styles/gif/11.gif" width="200" alt="⑪ 场景接力"></a><br><b>⑪ 场景接力</b><br><sub>适合：过程类、变化类（可组合）</sub><br><sub><a href="https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep17_ai_yueliaoyueben.mp4">▶ 第17期 AI越聊越笨，真不是你的错觉</a></sub></td>
+</tr>
+</table>
 
 <details>
-<summary><b>第28期成片抽帧</b></summary>
+<summary><b>全部 23 期原片 · 风格对应表</b></summary>
 
-![第28期成片抽帧](examples/ep28_distill_shicong/kf/成片v1_抽帧总览.jpg)
+| 期 | 标题 | 风格 | 时长 | 原片 |
+|---|---|---|---|---|
+| 第2期 | ChatGPT是怎么来的 | 早期 | 231s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep02_chatgpt.mp4) |
+| 第2期（短版） | ChatGPT的核心原理（短版） | 早期 | 100s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep02_short.mp4) |
+| 第3期 | 特斯拉Roadster倒挂翻身原理 | 早期（汽车题材试验） | 92s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep03_roadster.mp4) |
+| 第4期 | DeepSeek淘汰线 | 已停用·意象比喻（对战 HUD） | 70s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep04_deepseek.mp4) |
+| 第5期 | DeepSeek只用3%的脑子 | 已停用·像素/AI 生成图 | 70s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep05_moe.mp4) |
+| 第7期 | DeepSeek公开自家印钞机 | 已停用·意象比喻（小票机） | 59s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep07_deepseek_open.mp4) |
+| 第9期 | 蔚来融资十余年不如DeepSeek一轮 | 已停用·意象比喻（资金柱） | 78s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep09_deepseek_funding.mp4) |
+| 第10期 | AI竞争只剩中美，欧洲日本去哪了 | 已停用·意象比喻（牌桌） | 93s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep10_eu_japan.mp4) |
+| 第11期 | AI造富有多快：五年七个百亿富豪 | ⑥ 纸面桌面 | 69s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep11_anthropic_s1.mp4) |
+| 第12期 | AI这么贵，为什么我们用起来却免费 | ⑤ 深色状态色 | 68s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep12_ai_free.mp4) |
+| 第13期 | 华为AI芯片凭什么撑起半边天 | ⑨ 暗金总图 | 94s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep13_huawei_ascend.mp4) |
+| 第14期 | 让AI点个外卖为啥这么难 | ④ 手机里发生 | 91s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep14_ai_waimai.mp4) |
+| 第15期 | 苹果用户苦等2年的AI到底有什么用 | ④ 手机里发生 | 73s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep15_apple_ai_cn.mp4) |
+| 第16期 | 韩国AI的半壁江山用的是中国模型 | ⑩ 蓝图纸 | 79s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep16_korea_qwen.mp4) |
+| 第17期 | AI越聊越笨，真不是你的错觉 | ⑪ 场景接力 | 91s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep17_ai_yueliaoyueben.mp4) |
+| 第18期 | 顶尖AI人才居然被中国人包圆了 | ⑦ 双色报纸 | 103s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep18_ai_talent.mp4) |
+| 第19期 | 免费开源才是最狠的生意 | ⑧ 涂黑账单 | 92s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep19_free_opensource.mp4) |
+| 第23期 | 短视频算法翻车 | ① 新闻快剪 | 71s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep23_tiktok_rabbit_hole.mp4) |
+| 第24期 | 大反转！老黄要杀回来了 | ① 新闻快剪 | 86s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep24_huang_comeback.mp4) |
+| 第25期 | DeepSeek一限额，我失恋了 | ④ 手机里发生 | 79s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep25_deepseek_shilian.mp4) |
+| 第26期 | DeepSeek限额，免费AI到头了 | ⑤ 深色状态色 | 86s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep26_deepseek_free_end.mp4) |
+| 第27期 | 你教AI那一套，其实已经过时了 | ② 大字压实拍 | 88s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep27_prompt_outdated.mp4) |
+| 第28期 | 国产AI，师从美国？ | ③ 原件+时间轴 | 95s | [▶ 播放 / 下载](https://github.com/ZeroBean/ai-laimai-video-pipeline/releases/download/cases-v1/ep28_distill_shicong.mp4) |
+
+> 第 20–22 期涉及个人隐私，未公开。完整清单见 [`cases.tsv`](cases.tsv)，打包下载见 [Releases · cases-v1](../../releases/tag/cases-v1)。
 
 </details>
+
+**完整范例**：[`examples/ep28_distill_shicong/`](examples/ep28_distill_shicong/)（风格 ③，文案 → 核对 → 分镜 → 素材清单 → 关键帧 → 成片）
 
 ## 用不同的 AI Agent
 
