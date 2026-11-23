@@ -90,16 +90,28 @@ bash scripts/new_episode.sh ep29_xxx    # 新建一期，带好全套工具
 ## 核心流程
 
 ```mermaid
-flowchart LR
-  A[口播稿 / 主题] --> B[⓪ 写稿 ① 核稿]
-  B -->|拍板| C[② 配音]
-  C --> D[③ 分镜·选风格]
-  D -->|拍板| E[④ 素材]
-  E --> F[⑤ 关键帧]
-  F -->|拍板| G[⑥ 全片]
-  G --> H[⑦ 质检]
-  H -->|局部补渲| G
-  H -->|拍板| I[成片]
+%%{init: {"themeVariables": {"fontSize": "22px"}, "flowchart": {"nodeSpacing": 30, "rankSpacing": 34, "padding": 18, "wrappingWidth": 640}}}%%
+flowchart TD
+  A(["📝 &nbsp;输入：口播稿 &nbsp;或&nbsp; 一个主题"]):::io
+  A --> B["<b>⓪ 写稿</b>（只给主题时）&nbsp; 调研 → 选结构 → 3 个标题 + 文案"]
+  B --> C["<b>① 核稿</b> &nbsp; 逐句查事实 → 事实核对.md"]
+  A -. 上传了口播稿 .-> C
+  C --> P1(["👤 &nbsp;你拍板：改不改稿"]):::gate
+  P1 --> D["<b>② 配音</b> &nbsp; 整句合成，读音表定型号和数字 → tts/"]
+  D --> E["<b>③ 分镜</b> &nbsp; 先从风格库选风格，再逐句写画面 → 分镜_v1.md"]
+  E --> P2(["👤 &nbsp;你拍板：画风和主线"]):::gate
+  P2 --> F["<b>④ 找素材</b> &nbsp; 视频 · 网页原件 · 官方发布页 · 空镜"]
+  F --> G["<b>⑤ 关键帧</b> &nbsp; 6–8 张终稿画质，挑不同段落"]
+  G --> P3(["👤 &nbsp;你拍板：画面质量"]):::gate
+  P3 --> H["<b>⑥ 全片</b> &nbsp; 逐字对时 → 字幕时间轴 → 逐帧渲染 → 合成配音"]
+  H --> I["<b>⑦ 质检</b> &nbsp; 闷点 · 字幕对时 · 帧数 · 抽帧总览"]
+  I -- 有问题：只补渲那几秒 --> H
+  I --> P4(["👤 &nbsp;你拍板：看片 + 耳听"]):::gate
+  P4 --> J(["🎬 &nbsp;成片 + 封面 + 发布文案"]):::io
+
+  classDef default fill:#F4F5F7,stroke:#9AA0A8,stroke-width:1.5px,color:#1C1F24;
+  classDef io fill:#1C1F24,stroke:#1C1F24,color:#FFFFFF;
+  classDef gate fill:#FCE7DE,stroke:#D97757,stroke-width:2px,color:#7A3418;
 ```
 
 <details>
